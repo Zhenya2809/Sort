@@ -24,6 +24,13 @@ public class Car implements Comparable<Car> {
     @Override
     public int compareTo(Car car) {
         return Integer.compare(this.yearOfManufacture, car.getYearOfManufacture());
+//        if(this.yearOfManufacture==car.getYearOfManufacture()){
+//            return 0;
+//        }
+//        if(this.yearOfManufacture< car.getYearOfManufacture()){
+//            return -1;
+//        }
+//        return 1;
     }
 }
 
